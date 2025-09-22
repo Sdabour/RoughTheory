@@ -1,0 +1,13 @@
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\bin\Debug\Rough.exe
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\bin\Debug\Rough.pdb
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\obj\Debug\Rough.csprojAssemblyReference.cache
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\obj\Debug\Rough.frmDSDiscerinibilityMatrixMultipleDecision.resources
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\obj\Debug\Rough.frmDSConnectToServer.resources
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\obj\Debug\Rough.frmDSDescisionSystem.resources
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\obj\Debug\Rough.frmDSAttribute.resources
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\obj\Debug\Rough.frmDSDiscerinibilityMatrix.resources
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\obj\Debug\Rough.Properties.Resources.resources
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\obj\Debug\Rough.csproj.GenerateResource.cache
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\obj\Debug\Rough.csproj.CoreCompileInputs.cache
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\obj\Debug\Rough.exe
+D:\Me\master\foundation\rough\Rough Project\RoughProject\Rough\Rough\obj\Debug\Rough.pdb

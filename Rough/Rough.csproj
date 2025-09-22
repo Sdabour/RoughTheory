@@ -1,0 +1,136 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{877F7E7F-9952-4F3B-8199-0E43609C6425}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rough</RootNamespace>
+    <AssemblyName>Rough</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttributeBiz.cs" />
+    <Compile Include="AttributeValueBiz.cs" />
+    <Compile Include="BaseDb.cs" />
+    <Compile Include="frmDSDiscerinibilityMatrixMultipleDecision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDSDiscerinibilityMatrixMultipleDecision.Designer.cs">
+      <DependentUpon>frmDSDiscerinibilityMatrixMultipleDecision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDSConnectToServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDSConnectToServer.Designer.cs">
+      <DependentUpon>frmDSConnectToServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDSDescisionSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDSDescisionSystem.Designer.cs">
+      <DependentUpon>frmDSDescisionSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDSAttribute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDSAttribute.Designer.cs">
+      <DependentUpon>frmDSAttribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDSDiscerinibilityMatrix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDSDiscerinibilityMatrix.Designer.cs">
+      <DependentUpon>frmDSDiscerinibilityMatrix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDSSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDSSplash.Designer.cs">
+      <DependentUpon>frmDSSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDSDiscerinibilityMatrixMultipleDecision.resx">
+      <DependentUpon>frmDSDiscerinibilityMatrixMultipleDecision.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDSConnectToServer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDSConnectToServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDSDescisionSystem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDSDescisionSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDSAttribute.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDSAttribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDSDiscerinibilityMatrix.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDSDiscerinibilityMatrix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UniversalObjectBiz.cs" />
+    <Compile Include="UniversalObjectValueBiz.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
